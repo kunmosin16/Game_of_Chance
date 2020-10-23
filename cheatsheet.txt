@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name "Mohamed Mohsin"
+git config --global user.email "kunmosin16@gmail.com"
+git init
+git add
+git commit -m "Initial Comiit"
+git status #just to check my status of project
+ssh-keygen -t rsa -b 4096 -C "kunmosin16@gmail.com"
+tail /c/Users/Admin/.ssh/id_rsa.pub #key added to Github account
+git remote add origin https://github.com/kunmosin16/Smart-Calculator
+git push origin master
